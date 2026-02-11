@@ -19,6 +19,17 @@ This repository contains my hands-on practice of:
 - table.sh → prints multiplication table  
 - menu.sh → interactive menu script  
 - dashboard.sh → system info dashboard  
+- organize.sh -> organize files 
+
+## File Organizer Script
+
+This script automatically organizes files into folders:
+
+- `.txt` → `text_files/`
+- `.sh` → `scripts/`
+- `.py` → `python_files/`
+
+It also uses `2>/dev/null` to hide errors when no matching files are found.
 
 ## Goal
 
