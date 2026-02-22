@@ -31,7 +31,7 @@ ls [options] [path]
 ### Important Options
 -l   → detailed view (permissions, owner, size, date)
 -a   → show hidden files
--h   → human readable size
+-h   → human-readable size
 -R   → recursive listing
 
 ### Common Real Commands
@@ -46,7 +46,7 @@ ls -l /var/log
 
 ### Interview Angle
 Q: Difference between ls and ls -l?
-A: ls -> Compact, multi-column , names only, used for quick navigation	ls -l -> Detailed, one item per line, shows Permissions, size, owner, date, name , used for Troubleshooting, checking permissions
+A: ls -> Compact, multi-column, names only, used for quick navigation	ls -l -> Detailed, one item per line, shows Permissions, size, owner, date, name, used for Troubleshooting, checking permissions
 Q: How to view hidden files?
 A: ls -a or ls -la[more detailed]
 ---
@@ -54,7 +54,7 @@ A: ls -a or ls -la[more detailed]
 ## 3️⃣ cd
 
 ### What it does
-Changes current directory.
+Changes the current directory.
 
 ### Syntax
 cd [path]
