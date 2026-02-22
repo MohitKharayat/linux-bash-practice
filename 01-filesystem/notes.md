@@ -17,7 +17,7 @@ pwd
 
 ### Interview Angle
 Q: How do you check your current working directory?
-A: run pwd
+A: pwd
 ---
 
 ## 2️⃣ ls
@@ -46,9 +46,7 @@ ls -l /var/log
 
 ### Interview Angle
 Q: Difference between ls and ls -l?
-A: ls -> Compact, multi-column	ls -l -> Detailed, one item per line
-   ls -> Names only	ls -l -> Permissions, size, owner, date, name
-   ls -> Quick navigation	ls -l -> Troubleshooting, checking permissions
+A: ls -> Compact, multi-column , names only, used for quick navigation	ls -l -> Detailed, one item per line, shows Permissions, size, owner, date, name , used for Troubleshooting, checking permissions
 Q: How to view hidden files?
 A: ls -a or ls -la[more detailed]
 ---
